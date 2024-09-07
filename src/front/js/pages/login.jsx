@@ -83,10 +83,9 @@ export const Login = () => {
 				</button>
 			</form>
 			<p className="mt-2 fs-6">
-				{register == true ? '¿Ya estás registrado? ' : '¿No estás registrado? '} 
+				{register == true ? '¿Ya tienes cuenta? click aquí' : '¿No tienes cuenta? click aquí '} 
 				<span 
 					className="text-secondary text-decoration-underline" 
-					style={{cursor: 'pointer'}} 
 					onClick={() => setRegister(!register)}
 				>
 					Click aquí.

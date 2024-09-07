@@ -16,7 +16,7 @@ export const Home = () => {
 	}
 	return (
 		<div className="container text-center mt-5">
-			<h1 className="text-danger">ESTA PÁGINA ES PRIVADA</h1>
+			<h1 className="text-success">WELCOME!</h1>
 			<Link to={'/'}>
 			<button type="button" className="btn btn-danger" onClick={handleLogout}>
 				Log out
